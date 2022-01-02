@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    width: 600px;
+    height: 400px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    /* border: 5px black; */
+  }
+  .timetable {
+    width: 100%;
+    height: 100%;
+    border: 10px black;
+    /* padding: 10px; */
+    /* margin: 100px; */
+  }
+  .piclayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .timelayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2rem;
+    width: 5.5rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    transition: 0.4s;
+  }
+  .box:hover {
+    background-color: rgba(255, 176, 176, 0.719);
+    box-shadow: 3px 3px 8px rgb(255, 255, 255);
+  }
+  
+  .blank {
+    background-color: white;
+  }
+  .blank:hover {
+    background-color: white;
+    box-shadow: none;
+  }
+  
+  /* MONDAY BEGIN */
+  
+  .m1 {
+    position: absolute;
+    left: 14.5%;
+    top: 11.6%;
+  }
+  .m2 {
+    position: absolute;
+    left: 14.5%;
+    top: 22.6%;
+  }
+  .m3 {
+    position: absolute;
+    left: 14.5%;
+    top: 33.6%;
+  }
+  .m4 {
+    position: absolute;
+    left: 14.5%;
+    top: 44.6%;
+  }
+  .m5 {
+    position: absolute;
+    left: 14.5%;
+    top: 55.6%;
+  }
+  .m6 {
+    position: absolute;
+    left: 14.5%;
+    top: 66.6%;
+  }
+  .m7 {
+    position: absolute;
+    left: 14.5%;
+    top: 77.6%;
+  }
+  .m8 {
+    position: absolute;
+    left: 14.5%;
+    top: 88.5%;
+  }
+  
+  /* MONDAY END */
+  
+  /* TUESDAY BEGIN */
+  
+  .tu1 {
+    position: absolute;
+    left: 31%;
+    top: 11.6%;
+  }
+  .tu2 {
+    position: absolute;
+    left: 31%;
+    top: 22.6%;
+  }
+  .tu3 {
+    position: absolute;
+    left: 31%;
+    top: 33.6%;
+  }
+  .tu4 {
+    position: absolute;
+    left: 31%;
+    top: 44.6%;
+  }
+  .tu5 {
+    position: absolute;
+    left: 31%;
+    top: 55.6%;
+    height: 5rem;
+  }
+  .tu6 {
+    position: absolute;
+    left: 31%;
+    top: 66.6%;
+  }
+  .tu7 {
+    position: absolute;
+    left: 31%;
+    top: 77.6%;
+    height: 5rem;
+  }
+  .tu8 {
+    position: absolute;
+    left: 31%;
+    top: 88.5%;
+  }
+  
+  /* TUESDAY END */
+  
+  /* WEDNESDAY BEGIN */
+  
+  .w1 {
+    position: absolute;
+    left: 48.3%;
+    top: 11.6%;
+  }
+  .w2 {
+    position: absolute;
+    left: 48.3%;
+    top: 22.6%;
+  }
+  .w3 {
+    position: absolute;
+    left: 48.3%;
+    top: 33.6%;
+  }
+  .w4 {
+    position: absolute;
+    left: 48.3%;
+    top: 44.6%;
+  }
+  .w5 {
+    position: absolute;
+    left: 48.3%;
+    top: 55.6%;
+  }
+  .w6 {
+    position: absolute;
+    left: 48.3%;
+    top: 66.6%;
+    height: 7.7rem;
+  }
+  .w7 {
+    position: absolute;
+    left: 48.3%;
+    top: 77.6%;
+  }
+  .w8 {
+    position: absolute;
+    left: 48.3%;
+    top: 88.5%;
+  }
+  
+  /* WEDNESDAY END */
+  
+  /* THURSDAY BEGIN */
+  
+  .th1 {
+    position: absolute;
+    left: 65.1%;
+    top: 11.6%;
+  }
+  .th2 {
+    position: absolute;
+    left: 65.1%;
+    top: 22.6%;
+  }
+  .th3 {
+    position: absolute;
+    left: 65.1%;
+    top: 33.6%;
+  }
+  .th4 {
+    position: absolute;
+    left: 65.1%;
+    top: 44.6%;
+  }
+  .th5 {
+    position: absolute;
+    left: 65.1%;
+    top: 55.6%;
+  }
+  .th6 {
+    position: absolute;
+    left: 65.1%;
+    top: 66.6%;
+  }
+  .th7 {
+    position: absolute;
+    left: 65.1%;
+    top: 77.6%;
+  }
+  .th8 {
+    position: absolute;
+    left: 65.1%;
+    top: 88.5%;
+  }
+  
+  /* THURSDAY END */
+  
+  /* FRIDAY BEGIN */
+  
+  .f1 {
+    position: absolute;
+    left: 82%;
+    top: 11.6%;
+  }
+  .f2 {
+    position: absolute;
+    left: 82%;
+    top: 22.6%;
+    height: 5rem;
+  }
+  .f3 {
+    position: absolute;
+    left: 82%;
+    top: 33.6%;
+  }
+  .f4 {
+    position: absolute;
+    left: 82%;
+    top: 44.6%;
+  }
+  .f5 {
+    position: absolute;
+    left: 82%;
+    top: 55.6%;
+  }
+  .f6 {
+    position: absolute;
+    left: 82%;
+    top: 66.6%;
+    height: 7.7rem;
+  }
+  .f7 {
+    position: absolute;
+    left: 82%;
+    top: 77.6%;
+  }
+  .f8 {
+    position: absolute;
+    left: 82%;
+    top: 88.5%;
+  }
+  
+  /* FRIDAY END */
+  
